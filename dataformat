@@ -1,0 +1,13 @@
+[{
+	date:date,
+	price:price,
+	to: {
+		airportCode:str,
+		fullName:str
+	},
+	from: {
+		airportCode:str,
+		fullName:str
+	},
+	image: url
+}]
