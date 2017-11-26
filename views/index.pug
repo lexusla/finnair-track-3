@@ -1,21 +1,28 @@
 extends layout
 
 block content
-  .container.d-flex.justify-content-center
-    form.col-4
-      .row.d-flex.justify-content-center
-        a.btn.btn-fb.d-inline-flex(href='/auth/login/facebook', style='color:#fff;')
-          div(style='border-right: solid 1px #fff; width: 15%; padding-right: 10px; color: #fff; align-items: center;display: flex;')
-            i.fa.fa-facebook(aria-hidden='true')
-          |  Sign up with Facebok
-      .form-group
-        .btn-group.btn-group-login.w-100(role='group')
-          button.btn.btn-primary.w-100(type='button', style='color: #000;') Sign Up
-          button.btn.btn-secondary.w-100(type='button', style='color: #000;') Login
-        input.form-control(type='email', id='', placeholder='e-mail')
-        input.form-control(type='password', id='', placeholder='password')
-        input.form-control(type='password', id='', placeholder='confirm password')
-      button.btn.w-100.btn-pink.btn-primary.text-center(type='submit') Continue
+  h1.text-center The most personalized search which you could EVER imagine
+  .jumbotron.fluid.d-flex
+    .container.text-center
+      h1.display-3 We did it!
+      h5.text-muted No more need in specifying your travel info. Just give our magic search a few minutes and you will find out that the travel search have never been so:
+      ul.ul-jumbo
+        h2
+          li Easy
+        li 
+          h2 Interesting
+        li 
+          h2 Personalized
+    .container.d-flex.justify-content-center
+      form.col-8
+        .row.d-flex.justify-content-center
+        .form-group
+          .btn-group.btn-group-login.w-100(role='group')
+            button.btn.btn-primary.w-100(type='button', style='color: #000;') Sign Up
+            button.btn.btn-secondary.w-100(type='button', style='color: #000;') Login
+          input.form-control(type='email', id='', placeholder='e-mail')
+          input.form-control(type='password', id='', placeholder='password')
+        button.btn.w-100.btn-pink.btn-primary.text-center(type='submit') Continue
   .container.d-flex.justify-content-center
     .row
       h1 OR
@@ -62,8 +69,3 @@ block content
         .card.music
           .card-body
           a.btn.btn-primary.btn-card.align-self-end(href='#') From 89,99 €
-  .jumbotron.jumbotron-fluid
-    .container
-      h1.display-3 Fluid jumbotron
-      p.lead
-        | This is a modified jumbotron that occupies the entire horizontal space of its parent.

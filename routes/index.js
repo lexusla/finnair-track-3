@@ -12,18 +12,13 @@ router.get('/about', function(req, res) {
 });
 
 /* GET contact page */
-router.get('/contact', function(req, res) {
-  res.render('contact', { title: 'Contact', user: req.user });
+router.get('/flight', function(req, res) {
+  res.render('flight', { title: 'Flights', user: req.user });
 });
 
 /* GET contact page */
 router.get('/profile', function(req, res) {
-  if(req.user) {
     res.render('profile', { title: 'Profile', user: req.user });
-  } else {
-    res.redirect("/login");
-  }
-
 });
 
 /* GET login page */

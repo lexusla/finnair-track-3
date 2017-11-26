@@ -159,6 +159,7 @@ app.use('/getSportEventsTickets', function (req, res) {
         event: {name:"Olympics 2018"}});
     res.send(result);
 });
+
 app.use('/getCarvinalsTickets', function (req, res) {
     var result = [];
     result.push({price: 120, from: {code: "HEL", name: "Helsinki"},

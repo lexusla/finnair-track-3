@@ -1,10 +1,32 @@
 extends layout
 
 block content
-  .main.container.clearfix
-    .row
-      .col-md-10.col-md-offset-2
-      if(user)
-        h1.display-4
-          img.avatar.img-circle.hidden-xs-down(src=user.photo alt='avatar')
-          | #{user.name}
+
+  .h1.text-center My profile
+  .jumbotron.jumbotron-fluid.w-100.d-flex.justify-content-center
+    .col-7
+      h5.text-muted.text-center No more need in specifying your travel info. Just give our magic search a few minutes and you will find out that the travel search have never been so:
+        .btn-group.btn-group-jumbo-profile.w-100(role='group')
+              button.btn.btn-profile-jumbo.w-100(type='button') ADD LINKS
+              button.btn.btn-profile-jumbo-active.w-100(type='button') BOTH
+              button.btn.btn-profile-jumbo.w-100(type='button') TAKE A SURVEY
+  .container
+    .row.social-icons
+      .col-2
+        a(href='/auth/login/facebook')
+          img(src='../images/fb.png')
+      .col-2
+        a
+          img(src='../images/insta.png')
+      .col-2
+        a
+          img(src='../images/spotify.png')
+      .col-2
+        a
+          img(src='../images/sk.png')
+      .col-2
+        a
+          img(src='../images/gcal.png')
+      .col-2
+        a
+          img(src='../images/bit.png')

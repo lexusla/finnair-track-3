@@ -9,6 +9,28 @@
 	color: #ffffff;
 }
 
+.btn-profile-jumbo {
+	background-color: #ffffff;
+	color: #0d1973;
+}
+
+.btn-profile-jumbo {
+	border: 2px #0d1973 solid;
+	padding: 1em
+}
+
+.btn-profile-jumbo-active {
+	background-color: #0d1973;
+	color: #fff;
+	border: 0;
+	padding: 1em;
+}
+
+.btn-group-jumbo-profile {
+	margin: 5px;
+	margin-top: 1em;
+}
+
 .btn-primary {
 	background-color: #a6c6ee;
 	border: 0;
@@ -21,6 +43,19 @@
 
 .btn-secondary {
 	border: 0;
+}
+
+.alert-flight-name {
+	background-color: #ba4a9e;
+	border: none;
+}
+
+.alert-flight-details {
+border: 1px solid;
+}
+
+.ul-jumbo {
+	list-style: none;
 }
 
 .cheapest {
@@ -75,6 +110,10 @@ h4 {
 	font-size: 1.2rem;
 }
 
+h1 {
+	color: #112196;
+}
+
 .cards {
 	margin-bottom: 3.5em;
 }
@@ -104,4 +143,9 @@ h4 {
 	font-weight: 800;
 	color: #ffffff;
 	text-transform: uppercase;
+}
+
+.flight-date {
+	background-color: #ba4a9e;
+	border: none;
 }

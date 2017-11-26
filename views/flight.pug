@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  .h1.text-center Select the flight
+  .container.w-100.d-flex
+    .row.w-100
+      .col-3
+        .alert.alert-secondary
+          .form-group
+            |My preferences
+            .checkbox
+              lable
+                input(type='checkbox')
+                |Weather
+            .checkbox
+              lable
+                input(type='checkbox')
+                |Music taste
+            .checkbox
+              lable
+                input(type='checkbox')
+                |Hobby
+            .checkbox
+              lable
+                input(type='checkbox')
+                |Sport events
+            .checkbox
+              lable
+                input(type='checkbox')
+                |Cultural events
+            
+      .col-8
+        .row
+          .alert.w-100.d-flex.flex-row.alert-flight-details(style='padding:0;')
+            .col-3.flight-date
+              h5.alert-flight-name FIFA 2018
+              span.alert-flight-dates 15.12.17-15.01.18
+            .col-9
+              .row
+                .col-4.w-100
+                  |Helsinki - Moscow
+                  br
+                  |20.12.2018
+                .col-4.w-100
+                  b 09:30 - 12:05
+                  br
+                  |direct
+                .col-4.flight-price.w-100
+                  |120 EUR
+        .w-100
+        .row
+          .alert.w-100.d-flex.flex-row.alert-flight-details(style='padding:0;')
+            .col-3.flight-date
+              h5.alert-flight-name FIFA 2018
+              span.alert-flight-dates 15.12.17-15.01.18
+            .col-9
+              .row
+                .col-4.w-100
+                  |Helsinki - Moscow
+                  br
+                  |20.12.2018
+                .col-4.w-100
+                  b 09:30 - 12:05
+                  br
+                  |direct
+                .col-4.flight-price.w-100
+                  |120 EUR
