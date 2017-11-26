@@ -13,12 +13,20 @@
     "express": "~4.13.1",
     "express-passport-logout": "^0.1.0",
     "express-session": "^1.15.6",
+    "fb": "^2.0.0",
+    "ml-distance": "^2.1.1",
+    "ml-kmeans": "^3.0.0",
     "mongoose": "^4.5.2",
     "morgan": "~1.6.1",
+    "pako": "^1.0.6",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
     "passport-instagram": "^1.0.0",
+    "promise": "latest",
     "pug": "^2.0.0-beta3",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "spotify-web-api-node": "^2.5.0",
+    "twitter": "^1.7.1",
+    "underscore": "^1.8.3"
   }
 }
